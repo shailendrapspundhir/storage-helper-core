@@ -1,0 +1,22 @@
+{
+  "name": "@media-cutter/cli",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@nestjs/core": "latest",
+    "@nestjs/common": "latest",
+    "reflect-metadata": "latest",
+    "rxjs": "latest",
+    "commander": "latest",
+    "fluent-ffmpeg": "latest",
+    "ffmpeg-static": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest"
+  }
+}
